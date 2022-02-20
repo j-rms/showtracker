@@ -1,2 +1,10 @@
 * showtracker
 Bash script that lets you track where you've got up to in all your serials (TV series, etc.)
+
+** Installation
+   + Copy script into your =~/bin= directory (or wherever you keep your bash scripts), and mark your script as executable.
+   + Make a directory in your home directory called =.showtracker=.
+
+** Usage
+   + =showtracker.sh {ABBREVIATION}= :: return to watching the show registered as ={ABBREVIATION}=.  If you enter a new abbreviation, the script will ask if you want to start tracking a new series.
+   + =showtracker.sh list= :: list all the shows you are tracking, and their abbreviations.
